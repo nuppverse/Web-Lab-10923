@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Model and CSS Styling Example</title>
+
+  <style>
+    
+    body {
+      background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKxm6HOomhilsss6Li4UlovPNUamHOf9RQ6w&s");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+    .box {
+      width: 400px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 3px solid #0077cc;
+      margin: 40px auto;     
+      padding: 20px;         
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      text-align: center;
+      color: #004c99;
+    }
+
+    p {
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+   
+    .inner-box {
+      border: 2px dashed #ff6600;
+      padding: 15px;
+      margin-top: 15px;
+      background-color: #fff7e6;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <h1>CSS Box Model Example</h1>
+    <p>
+      This example demonstrates how margins, borders, and padding
+      work together in the CSS box model. The outer white box has
+      a solid border, inner padding, and margin from the page edges.
+    </p>
+
+    <div class="inner-box">
+      <p>
+        This inner box has its own dashed border, background color,
+        and padding. Margins create space between boxes, while padding
+        creates space inside them.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
