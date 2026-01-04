@@ -72,8 +72,8 @@ Steps followed to deploy a project using Netlify:
 3. Selected “Add new site” → “Deploy manually”
 4. Uploaded the project folder containing HTML, CSS, and JavaScript files
 5. Successfully deployed the project and obtained a live URL
-The complete Practical Assignment 01 project was successfully deployed using Netlify.
 
+The complete Practical Assignment 01 project was successfully deployed using Netlify.
 Live URL:
 https://earnest-cheesecake-b4abd2.netlify.app
 
@@ -90,11 +90,6 @@ This helped me understand real-world workflow including version control and live
 - Familiarity with Git, GitHub, and deployment workflows  
 
 ---
-## Practical Assignment 05 – Netlify Deployment
-The complete Practical Assignment 01 project was successfully deployed using Netlify.
-
-Live URL:
-https://earnest-cheesecake-b4abd2.netlify.app
 
 ##  Note
 This repository is created for **academic and learning purposes** and reflects my progress as a student in web development.
