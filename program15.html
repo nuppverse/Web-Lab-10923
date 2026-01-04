@@ -1,0 +1,43 @@
+15                                                                                                                                                                   <!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Manipulation Demo</title>
+
+    <style>
+        #box {
+            padding: 15px;
+            border: 1px solid black;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2 id="heading">DOM Manipulation</h2>
+
+<p class="text">This is original text.</p>
+
+<div id="box">Initial content inside div</div>
+
+<button onclick="changeContent()">Click Me</button>
+
+<script>
+    function changeContent() {
+
+        // Using getElementById()
+        document.getElementById("heading").innerHTML =
+            "Content Changed using getElementById()";
+
+        // Using querySelector()
+        document.querySelector(".text").innerHTML =
+            "Text changed using querySelector()";
+
+        // Using innerHTML to update div content
+        document.getElementById("box").innerHTML =
+            "<b>Div content updated using innerHTML</b>";
+    }
+</script>
+
+</body>
+</html>
