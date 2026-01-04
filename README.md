@@ -62,3 +62,8 @@ This helped me understand real-world workflow including version control and live
 ##  Note
 This repository is created for **academic and learning purposes** and reflects my progress as a student in web development.
 
+## Practical Assignment 05 – Netlify Deployment
+The complete Practical Assignment 01 project was successfully deployed using Netlify.
+
+Live URL:
+https://earnest-cheesecake-b4abd2.netlify.app
