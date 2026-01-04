@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Focus Effect</title>
+    <style>
+        input[type="text"] {
+            border: 1px solid gray;
+            padding: 10px;
+            font-size: 16px;
+            transition: border-color 0.4s, transform 0.4s;
+        }
+
+        input[type="text"]:focus {
+            border-color: green;
+            transform: rotate(1deg);
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Text Input with Focus Styling</h2>
+
+    <input type="text" placeholder="Enter text">
+
+</body>
+</html>
